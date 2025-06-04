@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Фінал-проєкт</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <header>
+    <h1>McDonald's</h1>
+  </header>
+
+  <nav>
+    <a href="#burgers">Бургери</a>
+    <a href="#cold">Холодна їжа</a>
+    <a href="#hot">Тепла їжа</a>
+  </nav>
+
+  <section class="category" id="burgers">
+    <h2>Бургери</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/products/big-mac.png" alt="Big Mac" />
+        <h3>Біг Мак</h3>
+        <div class="price" data-price="109">₴109</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/products/double-cheeseburger.png" alt="Double Cheese" />
+        <h3>Дабл Чізбургер</h3>
+        <div class="price" data-price="89">₴89</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="category" id="cold">
+    <h2>Холодна їжа</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/products/mcflurry-oreo.png" alt="McFlurry" />
+        <h3>McFlurry з Oreo</h3>
+        <div class="price" data-price="75">₴75</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/products/iced-latte.png" alt="Ice Latte" />
+        <h3>Айс Латте</h3>
+        <div class="price" data-price="65">₴65</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="category" id="hot">
+    <h2>Тепла їжа</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/products/world-famous-fries.png" alt="Fries" />
+        <h3>Картопля фрі</h3>
+        <div class="price" data-price="49">₴49</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/products/premium-roast-coffee.png" alt="Кава" />
+        <h3>Кава</h3>
+        <div class="price" data-price="35">₴35</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Glass_of_tea.jpg/320px-Glass_of_tea.jpg" alt="Чай" />
+        <h3>Чай</h3>
+        <div class="price" data-price="30">₴30</div>
+        <div class="product-controls">
+          <input type="number" min="1" value="1" />
+          <button class="add-to-cart-button">Додати в кошик</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 McDonald's
+  </footer>
+
+  <a href="basket.html" class="cart-link">
+    Перейти до кошика (<span id="cart-count">0</span> товарів)
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
